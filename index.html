@@ -1,51 +1,74 @@
-<!DOCTYPE html>
-<html lang = "en">
+<!DOCTYPE HTML>  
+<html>  
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="table_style.css">
+        <title>Chelsea Chen</title>
+    </header>
+    <body>  
+        <!---Navigation--->
+        <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <!--This code defines the "My Webpage" link in the top left corner of the navigation pane-->
+                <a class="navbar-brand" href="./index.html">My Webpage</a>
+                <!--This code defines the "List" link in the top right corner of the navigation pane-->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="./list.html">List</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--This section defines the middle section of the webpage-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                
+                <!-- This code is for the student name-->
+                <h1 class="masthead-heading text-uppercase mb-0">Chelsea Chen</h1>
+                <!--This code creates the two lines separating the student name from the subtitle-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!--This code creates the subheading underneath the line dividers-->
+                <p class="masthead-subheading font-weight-light mb-0">School of Information Student</p>
+            </div>
+        </header>
+        <section class="text-center">
 
-<body>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Chelsea Chen</title>
-    <link rel="stylesheet", href = "styles.css">
-</head>
+            <div class="col-md-6 col-lg-4 mb-5">
+                <!-- put your bio paragraph here; remember to use the correct html tags -->
 
-<header>
-    <h1>Chelsea Chen</h1>
-    <p id="classinfo">INFO 202</p>
+                    <section id="about">
+                        <h2>About me</h2> 
+                            <p> 
+                        Hi, I’m Chelsea! I grew up in Chongqing, China, and have spent the last seven years in California (five years in Santa Barbara 
+                    and two in Orange County). My background bridges technology and the humanities, having a double degree in Statistics and English at
+                    UC Santa Barbara. From 2021 to 2023, I worked as a Product Analyst in an insure-tech startup, where I led data analysis to improve profitability 
+                    and customer experience, building narratives with data to inform decision-making. Currently, I’m pursuing a Master’s in 
+                    Information Management and Systems at UC Berkeley. I’m focused on exploring the intersection of information 
+                    technology and human society, particularly in areas like algorithm fairness and ethical AI. In my free time, I enjoy 
+                    photography, music (I'm learning guitar!), visiting museums, and watching sunsets by the beach.
+                            </p> 
+                
+                        <h3>Experience
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <a id = "linkedin" href="https://www.linkedin.com/in/chelsea-hzc/">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </h3>
+                            <ul>
+                                <li><strong>Master of Information Management and Systems</strong> 
+                                    –– UC Berkeley, Current</li>
+                                <li><strong> Product Analyst</strong> –– Root Insurance, 2021 - 2023</li>
+                                <li><strong>B.S. in Statistics and Data Science, B.A. in English</strong> –– UC Santa Barbara, 2016 - 2020</li>
+                            </ul>
+                
+                	
 
-</header>
 
+                
+            </div>
+        </section>
+    </body>
 
-<main>
-	<section id="about">
-	    <h2>About me</h2> 
-		    <p> 
-		Hi, I’m Chelsea! I grew up in Chongqing, China, and have spent the last seven years in California (five years in Santa Barbara 
-	and two in Orange County). My background bridges technology and the humanities, allowing me to approach information 
-	challenges from both technical and human-centered perspectives. From 2021 to 2023, 
-	I worked as a Product Analyst in an insure-tech startup, where I led data analysis to improve profitability 
-	and customer experience, building narratives with data to inform decision-making. Currently, I’m pursuing a Master’s in 
-	Information Management and Systems at UC Berkeley. I’m focused on exploring the intersection of information 
-	technology and human society, particularly in areas like algorithm fairness and ethical AI. In my free time, I enjoy 
-	photography, music (I'm learning guitar!), visiting museums, and watching sunsets by the beach.
-		    </p> 
-
-        <h3>Experience
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <a id = "linkedin" href="https://www.linkedin.com/in/chelsea-hzc/">
-                <i class="fa fa-linkedin-square"></i>
-            </a>
-        </h3>
-		    <ul>
-			    <li><strong>Master of Information Management and Systems</strong> 
-                    –– UC Berkeley, Current</li>
-                <li><strong> Product Analyst</strong> –– Root Insurance, 2021 - 2023</li>
-			    <li><strong>B.S. in Statistics and Data Science, B.A. in English</strong> –– UC Santa Barbara, 2016 - 2020</li>
-		    </ul>
-	</section>
-
- 
-</main>	
-    
-</body>
 </html>
